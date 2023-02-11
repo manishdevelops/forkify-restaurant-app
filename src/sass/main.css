@@ -199,17 +199,7 @@ body {
   height: 6rem;
   width: 6rem;
   fill: #f38e82;
-  -webkit-animation: rotate 2s infinite linear;
-          animation: rotate 2s infinite linear;
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  animation: rotate 2s infinite linear;
 }
 
 @keyframes rotate {
@@ -281,9 +271,6 @@ body {
 .search__field::-moz-placeholder {
   color: #d3c7c3;
 }
-.search__field:-ms-input-placeholder {
-  color: #d3c7c3;
-}
 .search__field::placeholder {
   color: #d3c7c3;
 }
@@ -292,9 +279,6 @@ body {
     width: auto;
   }
   .search__field::-moz-placeholder {
-    color: white;
-  }
-  .search__field:-ms-input-placeholder {
     color: white;
   }
   .search__field::placeholder {
@@ -710,9 +694,6 @@ body {
   transition: all 0.2s;
 }
 .upload__column input::-moz-placeholder {
-  color: #d3c7c3;
-}
-.upload__column input:-ms-input-placeholder {
   color: #d3c7c3;
 }
 .upload__column input::placeholder {
