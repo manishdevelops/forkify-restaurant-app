@@ -11,10 +11,6 @@ import addRecipeView from '/src/js/views/addRecipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-// from parcel
-// if(module.hot) {
-//   module.hot.accept();
-// }
 
 const controlRecipes = async function () {
   try {
